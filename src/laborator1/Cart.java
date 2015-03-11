@@ -23,6 +23,7 @@ public class Cart {
        products.put(p,c);
     }
     
+    //Returneaza suma totala de plata
     public double getTotalPrice(){
         double s=0;
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
